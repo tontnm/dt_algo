@@ -16,3 +16,14 @@ func factorial(n int) int {
 
 	return n * factorial(n-1)
 }
+
+/*
+
+Linear Recursion (Đệ qui tuyến tính: hàm gọi đến nó 1 lần thôi và giảm theo cấp bậc)
+	Hàm đệ qui là hàm gọi lại chính nó
+	Phải tìm được điểm dừng cho đệ quy (Return 1 giá trị nào đó, mà stack rỗng, coi như kết thúc chương trình)
+	Cơ chế hoạt động LIFO (Last In First Out), cơ chế Stack
+	Khi 1 hàm gọi đệ qui, thì nó sẽ tự động lưu lại biến local và các dòng chỉ thị lệnh đằng sau hàm đệ qui đc gọi, nếu như đằng sau hàm đệ qui ko có dòng lệnh nào hết thì nó sẽ không lưu vào stack
+	Khi kết thúc đệ qui sẽ gọi stack
+
+*/

@@ -1,0 +1,5 @@
+1. Xác dịnh app dạng gì
+2. Chắc chắn có màng hình chứa list
+3. Chắc chắn có màng hình detail
+4. xác định danh từ nó sẽ là entity của chúng ta, còn động từ thì nó sẽ là api
+5. xác định mối quan hệ, 1 món ăn có thể nằm trogn nhiều nhà hàng hay không?
