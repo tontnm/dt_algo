@@ -7,6 +7,7 @@ func main() {
 	printPermutations(m, 3, 0)
 }
 
+// hoán vị
 func printPermutations(arr []int, n, i int) {
 	var j, swap int
 
